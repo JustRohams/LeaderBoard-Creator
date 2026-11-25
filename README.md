@@ -8,7 +8,7 @@
 It scans another plugin for its statistic getters and turns any of them into a floating-text
 leaderboard, without writing a single line of code.
 
-> Repository: <https://github.com/JustRohams/LB-Creator>
+> Repository: <https://github.com/JustRohams/LeaderBoard-Creator>
 
 ## Features
 
