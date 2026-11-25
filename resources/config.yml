@@ -1,0 +1,41 @@
+update_interval: 5
+
+default_limit: 10
+
+default_title: "RohaM"
+
+default_end_text: ""
+
+cache_time: 60
+async_enabled: true
+
+debug_mode: false
+
+rank_colors:
+  1: "§6"   
+  2: "§7"    
+  3: "§8"    
+  default: "§f"  
+
+database:
+  type: "yaml"  # yaml & json
+  backup: true
+  backup_interval: 3600
+
+display:
+  separator: " - "
+  rank_prefix: "#"
+  value_prefix: ""
+  value_suffix: ""
+  max_name_length: 16
+
+scanner:
+  max_depth: 3
+  exclude_methods:
+    - "getConfig"
+    - "getLogger"
+    - "getServer"
+    - "getDataFolder"
+    - "getDescription"
+    - "getName"
+    - "getVersion"

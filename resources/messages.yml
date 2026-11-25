@@ -1,0 +1,52 @@
+startup: "§a LBCreator §7by §eRohaM §aenabled!"
+shutdown: "§c LBCreator disabled!"
+
+error_plugin_not_found: "§c Plugin '{plugin}' not found or disabled!"
+error_no_online_players: "§c No online players found for plugin '{plugin}'!"
+error_invalid_stat: "§c Statistic '{stat}' not found in plugin '{plugin}'!"
+error_limit_range: "§c Limit must be between 1 and 50!"
+error_world_not_found: "§cWorld not found!"
+error_not_found: "§c Leaderboard not found!"
+error_permission: "§c You don't have permission!"
+error_invalid_id: "§c Invalid leaderboard ID!"
+error_already_exists: "§cA leaderboard already exists at this position!"
+
+command_usage: "§cUsage: /lbc <subcommand> [args]"
+command_help_header: "§6 §lLBCreator Help §r§6"
+command_help_entry: "§e/lbc {cmd} §7- {desc}"
+
+creating: "§a Creating leaderboard for {plugin}..."
+created: "§a Leaderboard #§e{id}§a created for §e{plugin}§a!"
+created_file: "§7 Data saved to {file}"
+
+deleted: "§aLeaderboard #§e{id}§a deleted!"
+
+teleported: "§a Leaderboard #§e{id}§a teleported to your location!"
+
+edited: "§a Leaderboard #§e{id}§a edited!"
+
+list_header: "§6 §lLeaderboards §r§6({count})§r"
+list_entry: "§e#{id} §7- §f{plugin} §7({stat}) §a{limit} players"
+list_empty: "§c No leaderboards found!"
+list_position: " §7({world} {x}, {y}, {z})"
+
+reloaded: "§aConfiguration reloaded!"
+
+
+form_title_main: "§l§6LBCreator §r§7| Main Menu"
+form_title_create: "§l§6Create Leaderboard"
+form_title_edit: "§l§6Edit Leaderboard"
+form_title_select_plugin: "§l§6Select Plugin"
+form_title_select_stat: "§l§6Select Statistic"
+form_title_confirm: "§l§6Confirm"
+form_title_list: "§l§6Leaderboards"
+
+button_create: "§aCreate New"
+button_delete: "§cDelete"
+button_teleport: "§eTeleport"
+button_edit: "§6Edit"
+button_list: "§bList All"
+button_reload: "§dReload"
+button_back: "§7Back"
+button_confirm: "§aConfirm"
+button_cancel: "§cCancel"

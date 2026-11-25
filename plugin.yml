@@ -1,0 +1,25 @@
+name: LBCreator
+main: RohaM\LBCreator\Loader
+version: 1.0.0
+api: 5.0.0
+author: 
+ - RohaM
+ - Cyrinex
+description: "Dynamic leaderboard creator for any plugin"
+permissions:
+  lbcreator.command:
+    default: op
+  lbcreator.create:
+    default: op
+  lbcreator.delete:
+    default: op
+  lbcreator.teleport:
+    default: op
+  lbcreator.edit:
+    default: op
+  lbcreator.list:
+    default: op
+  lbcreator.reload:
+    default: op
+  lbcreator.help:
+    default: op
