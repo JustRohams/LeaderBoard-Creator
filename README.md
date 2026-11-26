@@ -127,4 +127,4 @@ in [SECURITY.md](SECURITY.md).
 
 Released under the [MIT License](LICENSE).
 
-Made by **RohaM**.
+Made by **RohaM** / **Cyrinex**.
